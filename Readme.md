@@ -33,5 +33,10 @@ Execute the follwing scripts one by one. <br>
  - sbatch 4-prod.sh				# Production run
 
 
-	
+- Running GROMACS tutorial on local mechine:
+-----------------------------
+- delete all **SBATCH** commands
+- delete **module load** command
+- delete the **export** command
+- change this path **/home/apps/gromacs/gromacs-2022.2/installGPUIOMPI/bin/gmx_GPUIMPI** to your GROMACS executable path
 
